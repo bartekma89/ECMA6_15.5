@@ -1,19 +1,25 @@
 {
-  "name": "15.5",
+  "name": "14.8",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "scripts.js",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartekma89/React_14.8.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "http-server": "^0.11.1"
-  }
+  "bugs": {
+    "url": "https://github.com/bartekma89/React_14.8/issues"
+  },
+  "homepage": "https://github.com/bartekma89/React_14.8#readme"
 }
